@@ -1,3 +1,11 @@
+import Head from 'next/head';
+
 export default function Home() {
-    return <h1>Talita Azevedo</h1>;
+    return (
+        <>
+            <Head>
+                <title> Home | Talita Azevedo</title>
+            </Head>
+        </>
+    );
 }
